@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <!--META BLOCKS-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Великий вибір музичних інструменітів відомих виробників.Купити гітари,барабани,клавішні.Музичне обладнання">
+        <title>Магазин музичних інструментів та обладнання</title>
+        
+        <!--LINKS TO CSS, FONTS, ICONS -->        
+        <link rel="stylesheet" href="css/main.css" type="text/css" /> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">        
+        <link rel="shortcut icon" href="favicon.ico" type="image/png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500&display=swap" rel="stylesheet">
+       
+        <!-- INCLUDE JS -->
+        <script src="js/menu.js"></script>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "main_nav") {
+              x.className += " responsive";
+            } else {
+              x.className = "main_nav";
+            }
+          }
+          </script>
+
+    </head>
+
+    <body>
+     <div class="container">
+      <header>      
+        <div class="flex_magic">
+          <div style="overflow: hidden;">
+            <div>
+                <div class="upper_header_cells social_icons"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f" ></i></a> &nbsp; <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> &nbsp; <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></div>
+                <div class="upper_header_cells">
+                  <fieldset>  
+                    <form method="GET" class="topsearch">
+                      <input type="text" placeholder="Пошук...">
+                      <button type="submit"></button>
+                    </form>               
+                </fieldset></div>
+                <div class="upper_header_cells ">м.Рівне, вул.Соборна 123</div>
+                <div class="upper_header_cells social_icons"><a href="mailto:rmnsk87@gmail.com" class="social_icons">rmnsk87@gmail.com</a> &nbsp; +1 (234) 567 89 00</div>
+               </div>
+        </div> 
+       </div>
+          
+                        
+            <!-- MAIN MENU-->
+            <nav class="mainmenu">  
+              <nav>           
+                <div class="main_nav" id="myTopnav">
+                    <a href="#home"><img src="img/logo.png" alt="Лого музичного магазина" class="logo"></a>
+                    <a href="#home">Головна</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Гітари
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Електро</a>
+                          <a href="#">Акустичні</a>
+                          <a href="#">Бас</a>
+                        </div>          
+                    </div>
+                    <a href="#news">Підсилювачі</a>
+                    <a href="#news">Інше обладнання</a>
+                    <a href="#news">Аксесуари</a>
+                    <a href="#news">Акції</a>
+                    <a href="#contact">Контакти</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    
+                  </div> 
+              </nav>             
+            </nav>      
+           
+        </header>
+
+      <!-- MAIN BANNER SLIDER-->
+
+        <div class="mainbanner_container">
+          <div class="mainbanner_block1">
+             
+            <p>Оновлений модельний ряд</p>
+            <p><span class="GoldHeading">Warwick</span> <span class="GreyHeading">RockBass</span> </p>
+            <div class="HR_devider"></div>
+            <div>Акційна ціна до кінця осені <span class="goldеtext">5000грн</span></div>
+            <div><a href="#"><input type="button" class="golden_button" value="Детальніше"><a></div>
+          </div>
+        <div class="mainbanner_block2">
+         <!---- <p>Другий блок</p>
+          <p><span class="GoldHeading">2block</span> <span class="GreyHeading">rightside</span> </p>  --> 
+        </div>
+
+       </div>
+            <!--<img src="img/main_banner_2.jpg" alt="Warwick бас гітара" class="mainbanner" />-->
+           
+          
+        <section>
+
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+
+        </section>
+     <!-- END OF CONTAINER-->       
+      </div>          
+    </body>
