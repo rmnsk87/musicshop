@@ -288,6 +288,24 @@ fieldset {
   height: 300px;
   }
 
+.newproducts_container a, a:active, a:visited{
+  color:#fff;
+  text-decoration: none;
+ }  
+
+.newproducts_price{
+  line-height: normal;
+  color: #e3a640;  
+}
+
+.newproducts_btn{
+  width:auto;
+  height:auto;
+  background-color:#000;
+  border: 1px solid #e2a53f;
+  padding: 5px;
+}
+
 
 
 
