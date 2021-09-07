@@ -346,6 +346,13 @@ h1.article{
   text-align: center;
 }
 
+h2.article{
+  color:#e2a53f;
+  font-size:22px;
+  font-weight: 300;  
+}
+
+
 article{
   font-weight: 100;
   text-align: center;
