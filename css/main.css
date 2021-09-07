@@ -10,7 +10,7 @@ body {
 /* ADAPTIVE BASE GRID */
 
 .container {
-  /*     width: 960px;*/
+  /*  width: 960px;*/
   width: 1500px;
   max-width: 100%;
   margin: auto;
@@ -18,7 +18,7 @@ body {
   }
   
   .header {
-  /*     width: 960px;*/
+  /* width: 960px;*/
   width: 100%;
   }
   
@@ -28,13 +28,12 @@ body {
   }
 
   .navigation {
-  
-  width: 87.5%;
+    width: 87.5%;
   
   }
   .main-nav {  
-  width: 95.23809523809524%;
-  padding: 0 2.380952380952381;
+    width: 95.23809523809524%;
+    padding: 0 2.380952380952381;
   }
   
   .main-nav li {
@@ -82,7 +81,6 @@ body {
   text-decoration: none;
 }
 
-
 nav {
 	display: inline-block; 
   width: 100%; 
@@ -107,7 +105,6 @@ nav {
     width: 120px;
     padding-right: 20px;
 }
-
 
 /* FORMS - SEARCH - CONTACTS */
 
@@ -176,9 +173,7 @@ fieldset {
   .dropdown {
     float: left;
     overflow: hidden;
-  }
-
- 
+  } 
   
   .dropdown .dropbtn {
     font-size: 18px;
@@ -199,8 +194,6 @@ fieldset {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-
-  
   
   .dropdown-content a {
     float: none;
@@ -264,25 +257,6 @@ fieldset {
   height: auto;
 } 
 
-
-.social_icons{
-display: flex;
-display: -webkit-box;
-display: -ms-flexbox;
-position: relative;
--webkit-box-orient: horizontal;
--webkit-box-direction: normal;
--ms-flex-direction: column;
-flex-direction: column;
--webkit-box-pack: center;
--ms-flex-pack: center;
-justify-content: center;
--webkit-box-align: center;
--ms-flex-align: center;
-align-items: center;
-cursor: pointer;
-}
-
 /* BANNER CAPTION TEXT STYLES */
 
 .GoldHeading{
@@ -300,7 +274,42 @@ cursor: pointer;
   color:#999998;
 }
 
+/*  */
+.newproducts_container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 22% 22% 22% 22%;
+  grid-template-rows: 2 auto;
+  grid-gap: 5px;
+  text-align: center;
+}
+
+.newproducts_container img{
+  height: 300px;
+  }
+
+
+
+
 /* OTHERS ELEMENTS */
+
+.social_icons{
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  }
 
 .HR_devider{
   height: 4px;
@@ -326,19 +335,11 @@ cursor: pointer;
 .golden_button{
   background-color: #f8b803;
   color:white;
-  
-
 }
 
-/* .mainbanner_block1{
-  
- }
 
- .mainbanner_block2{
+/* ARTICLE AND PARAGRAPH STYLES */
 
-}*/
-
-/* ARTICLE STYLES */
 h1.article{
   color: #e2a53f;
   font-size: 36px;
@@ -348,10 +349,15 @@ h1.article{
 
 h2.article{
   color:#e2a53f;
-  font-size:22px;
+  font-size:28px;
   font-weight: 300;  
 }
 
+h3.article{
+  color:#dfdfdf;
+  font-size: 20px;
+  font-weight: 200;
+}
 
 article{
   font-weight: 100;
@@ -360,7 +366,6 @@ article{
   margin: auto;
   padding: auto;
 }
-
 
 /*FOOTER STYLES*/
 
