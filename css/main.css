@@ -7,6 +7,10 @@ body {
     font-family: 'Fira Sans Condensed', sans-serif;
     display: flex;
 }
+
+li{
+  list-style: none;
+}
 /* ADAPTIVE BASE GRID */
 
 .container {
@@ -274,7 +278,7 @@ fieldset {
   color:#999998;
 }
 
-/*  */
+/* СAROUSEL OF NEW PRODUCTS */
 .newproducts_container{
   display: grid;
   width: 100%;
@@ -305,9 +309,6 @@ fieldset {
   border: 1px solid #e2a53f;
   padding: 5px;
 }
-
-
-
 
 /* OTHERS ELEMENTS */
 
@@ -344,6 +345,7 @@ fieldset {
 .mainbanner_container{
   background: url(../img/main_banner_2.jpg) no-repeat 100% 100%;
   display: grid;
+  flex-direction: row;
   height: 600px;
   grid-template-columns: 50% 50%;
   grid-template-rows: 2 auto;
@@ -355,6 +357,46 @@ fieldset {
   color:white;
 }
 
+.fixed_bg_container{
+  background: url(../img/fixed_bg.webp);
+  background-attachment: fixed;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed_bg_container h2{
+  color: #e3a640;
+  font-size: 3em;  
+  font-weight: 400;
+  text-align: center;
+  
+}
+
+.fixed_bg_container h3{
+  color: #e3a640;
+  font-size: 1.5rem;  
+  font-weight: 300;
+  text-align: center;
+}
+
+/* COUNTDOWN */
+
+li.countdown_container{
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.countdown_container > li span {
+  display: block;
+  font-size: 4.5rem;
+}
 
 /* ARTICLE AND PARAGRAPH STYLES */
 
