@@ -472,7 +472,9 @@ div.footer_style {
   background-color: #da9f3d;
   border: none;
   color: #0f0f0f;
-  padding: 15px 32px;
+  padding: 10px 10px;
+  width: 50%;
+  margin: auto;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -484,4 +486,5 @@ div.footer_style {
   background-color: #0f0f0f;
   color: #fff;
   margin: auto;
+  height: 25px;
 }
