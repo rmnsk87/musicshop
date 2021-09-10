@@ -1,3 +1,7 @@
+/*IMPORT OF ADDITIONAL CSS FILES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500&display=swap');
+@import url('../css/tabs.css');
 body {
   margin: 0px;
   padding: 0px;
@@ -5,6 +9,7 @@ body {
   color: #dfdfdf;
   font-family: 'Fira Sans Condensed', sans-serif;
   display: flex;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 li {
