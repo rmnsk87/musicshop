@@ -1,0 +1,14 @@
+/*** OVERRIDE BOOTSTRAP RULES FOR TABS CAROUSEL**/
+
+.nav-link{
+    color: #da9f3d;
+}
+
+.nav-link.active{
+    background-color: #da9f3d;
+}
+
+.nav-tabs{
+   /* background-color: #dfdfdf;*/
+}
+
