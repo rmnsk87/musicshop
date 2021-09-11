@@ -347,6 +347,7 @@ fieldset {
 
 .mainbanner_container {
   background: url(../img/main_banner_2.jpg) no-repeat 100% 100%;
+  background-size: cover;
   display: grid;
   flex-direction: row;
   height: 600px;
