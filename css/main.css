@@ -431,6 +431,9 @@ article {
   background-color: #141414;
   color: rgba(255, 255, 255, 0.42);
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
