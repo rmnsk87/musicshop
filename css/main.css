@@ -347,13 +347,10 @@ fieldset {
 
 .mainbanner_container {
   background: url(../img/main_banner_2.jpg) no-repeat 100% 100%;
-  background-size: cover;
-  display: grid;
-  flex-direction: row;
-  height: 600px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 2 auto;
-  grid-gap: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 600px;
 }
 
 .golden_button {
@@ -362,9 +359,9 @@ fieldset {
 }
 
 .fixed_bg_container {
-  background: url(../img/fixed_bg.webp);
+  background: url(../img/fixed_bg.webp) no-repeat;
   background-attachment: fixed;
-  height: 500px;
+  min-height: 400px;
   text-align: center;
   display: flex;
   flex-direction: column;
