@@ -285,7 +285,6 @@ fieldset {
   display: grid;
   width: 100%;
   grid-template-columns: 22% 22% 22% 22%;
-  grid-template-rows: 2 auto;
   grid-gap: 5px;
   text-align: center;
 }
