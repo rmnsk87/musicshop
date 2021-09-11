@@ -1,14 +1,19 @@
 /*** OVERRIDE BOOTSTRAP RULES FOR TABS CAROUSEL**/
 
-.nav-link{
-    color: #da9f3d;
+:root {
+    --accent-color: #da9f3d;
+    --main-color: #dfdfdf;
+    --contrast-black: #000;
 }
 
-.nav-link.active{
-    background-color: #da9f3d;
+.nav-link {
+    color: var(--accent-color);
 }
 
-.nav-tabs{
-   /* background-color: #dfdfdf;*/
+.nav-link.active {
+    background-color: var(--contrast-black);
 }
 
+.nav-link:hover {
+    color: var(--main-color);
+}
