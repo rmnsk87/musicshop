@@ -11,7 +11,8 @@
 }
 
 .nav-link.active {
-    background-color: var(--contrast-black);
+    color: var(--contrast-black);
+    background-color: var(--main-color);
 }
 
 .nav-link:hover {
