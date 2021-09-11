@@ -430,9 +430,7 @@ article {
 .footer_style {
   background-color: #141414;
   color: rgba(255, 255, 255, 0.42);
-  display: grid;
-  grid-template-columns: 4 30%;
-  grid-gap: 2px;
+  display: flex;
   width: 100%;
 }
 
