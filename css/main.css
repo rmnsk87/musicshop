@@ -476,3 +476,11 @@ footer button {
   display: inline-block;
   font-size: 16px;
 }
+
+@media (max-width: 400px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
+}
