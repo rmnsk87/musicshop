@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500&display=swap');
 @import url('../css/tabs.css');
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -426,50 +430,41 @@ article {
 
 /*FOOTER STYLES*/
 
-.footer_style {
+footer {
   background-color: #141414;
   color: rgba(255, 255, 255, 0.42);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100%;
+  height: auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 
-.footer_style>nav {
-  width: 100%;
-  height: 100%;
-  background-color: #141414;
-}
-
-.footer_style a, a:active, a:visited {
+footer a, a:active, a:visited {
   color: rgba(255, 255, 255, 0.42);
   font-size: 15px;
   text-decoration: none;
   font-weight: 200;
 }
 
-.footer_style>p {
-  color: rgba(255, 255, 255, 0.42);
-  font-weight: 200;
-}
-
-.footer_style>h4 {
+footer h4 {
   color: white;
   font-weight: 300;
   border-bottom: 1px solid #fff;
   padding-bottom: 8px;
 }
 
-div.footer_style {
-  position: relative;
-  width: 22%;
-  float: left;
-  padding: 10px 20px;
-  text-align: center;
+footer input {
+  width: 50%;
+  background-color: #0f0f0f;
+  color: #fff;
+  margin: auto;
+  height: 25px;
+  border: none;
 }
 
-.footer_style button {
+footer button {
   background-color: #da9f3d;
   border: none;
   color: #0f0f0f;
@@ -480,13 +475,4 @@ div.footer_style {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
-
-.footer_style input {
-  width: 50%;
-  background-color: #0f0f0f;
-  color: #fff;
-  margin: auto;
-  height: 25px;
-  border: none;
 }
