@@ -350,12 +350,13 @@ fieldset {
 
 .newproducts_btn :hover {
   background-color: #e2a53f;
-  padding: 5px;
+  padding: 10px;
 }
 
 .newproducts_btn a {
   color: #fff;
-  padding: 5px;
+  padding: 10px;
+  border: 1px solid #e2a53f;
 }
 
 .newproducts_btn a:hover {
