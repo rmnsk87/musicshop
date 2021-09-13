@@ -283,6 +283,17 @@ fieldset {
   color: #999998;
 }
 
+.mainbanner_block1 {
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .mainbanner_container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 /* СAROUSEL OF NEW PRODUCTS */
 
 .newproducts_container {
@@ -489,7 +500,7 @@ footer button {
   font-size: 16px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 408px) {
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
