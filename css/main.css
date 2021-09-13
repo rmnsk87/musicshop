@@ -303,14 +303,14 @@ fieldset {
   .goldetext {
     color: #e2a53f;
   }
-  /*.mainbanner_block1 p {
+  .mainbanner_block1 p {
     color: #0f0f0f;
     font-weight: bold;
   }
   .mainbanner_block1>div {
     color: #0f0f0f;
     font-weight: bold;
-  }*/
+  }
   .HR_devider {
     display: none;
   }
