@@ -294,6 +294,9 @@ fieldset {
     align-items: center;
     text-align: center;
   }
+  .mainbanner_block1 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
   .GreyHeading {
     color: #0f0f0f;
   }
