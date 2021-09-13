@@ -344,7 +344,12 @@ fieldset {
   width: auto;
   height: auto;
   background-color: #000;
-  border: 1px solid #e2a53f;
+  /*border: 1px solid #e2a53f;*/
+  padding: 5px;
+}
+
+.newproducts_btn :hover {
+  background-color: #e2a53f;
   padding: 5px;
 }
 
