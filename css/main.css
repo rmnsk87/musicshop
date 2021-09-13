@@ -284,13 +284,32 @@ fieldset {
 }
 
 .mainbanner_block1 {
-  padding: 10px;
+  padding: 13px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .mainbanner_container {
+    display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+  }
+  .GreyHeading {
+    color: #0f0f0f;
+  }
+  .goldetext {
+    color: #e2a53f;
+  }
+  .mainbanner_block1 p {
+    color: #0f0f0f;
+    font-weight: bold;
+  }
+  .mainbanner_block1>div {
+    color: #0f0f0f;
+    font-weight: bold;
+  }
+  .HR_devider {
+    display: none;
   }
 }
 
