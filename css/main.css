@@ -353,7 +353,7 @@ fieldset {
   padding: 5px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .newproducts_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -527,7 +527,7 @@ footer button {
   font-size: 16px;
 }
 
-@media (max-width: 408px) {
+@media (max-width: 608px) {
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
