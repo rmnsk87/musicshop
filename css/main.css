@@ -176,6 +176,10 @@ fieldset {
   display: none;
 }
 
+.main_nav a:hover {
+  background-color: #da9f3d;
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
