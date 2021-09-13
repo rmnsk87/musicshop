@@ -354,7 +354,7 @@ fieldset {
 }
 
 .newproducts_btn a {
-  color: #000;
+  color: #fff;
   padding: 5px;
 }
 
@@ -363,7 +363,7 @@ fieldset {
   background-color: #e2a53f;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .newproducts_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
