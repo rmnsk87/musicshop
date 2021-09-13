@@ -287,9 +287,9 @@ fieldset {
 
 .newproducts_container {
   display: grid;
-  width: 100%;
-  grid-template-columns: 22% 22% 22% 22%;
-  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -313,6 +313,14 @@ fieldset {
   background-color: #000;
   border: 1px solid #e2a53f;
   padding: 5px;
+}
+
+@media (max-width: 400px) {
+  .newproducts_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
 }
 
 /* OTHERS ELEMENTS */
