@@ -6,7 +6,6 @@
   --accent-color: #da9f3d;
   --main-color: #dfdfdf;
   --contrast-black: #0f0f0f;
-  
 }
 
 * {
@@ -264,7 +263,7 @@ fieldset {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 756px) {
   .main_nav.responsive {
     position: relative;
   }
