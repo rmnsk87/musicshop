@@ -170,7 +170,7 @@ fieldset {
 
 @media (max-width: 735px) {
   .topsearch {
-    display: none;
+    padding-top:10px;
   }
 }
 
