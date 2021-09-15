@@ -170,7 +170,7 @@ fieldset {
 
 @media (max-width: 735px) {
   .topsearch {
-    display: none;
+    padding-top: 10px;
   }
 }
 
@@ -253,7 +253,7 @@ fieldset {
   background-color: #3c3c3b;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 756px) {
   .main_nav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
