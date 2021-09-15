@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500&display=swap');
 @import url('../css/tabs.css');
 :root {
-  scroll-behavior: smooth;
+  --accent-color: #da9f3d;
+  --main-color: #dfdfdf;
+  --contrast-black: #0f0f0f;
 }
 
 * {
@@ -14,8 +16,8 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: #0f0f0f;
-  color: #dfdfdf;
+  background: var(--contrast-black);
+  color: var(--main-color);
   font-family: 'Fira Sans Condensed', sans-serif;
   display: flex;
   font-family: 'Alegreya Sans', sans-serif;
@@ -82,7 +84,7 @@ li {
 }
 
 .upper_header_cells a, a:visited, a:active {
-  color: #dfdfdf;
+  color: var(--main-color);
   text-decoration: none;
 }
 
@@ -97,7 +99,7 @@ li {
 }
 
 .upper_header_cells a:hover {
-  color: #da9f3d;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -115,7 +117,7 @@ nav {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  background: #0f0f0f;
+  background: var(--contrast-black);
   position: relative;
 }
 
@@ -154,7 +156,7 @@ fieldset {
 .topsearch button {
   height: 25px;
   width: 25px;
-  background: #dfdfdf;
+  background: var(--main-color);
   cursor: pointer;
 }
 
@@ -184,7 +186,7 @@ fieldset {
 .main_nav a {
   float: left;
   display: block;
-  color: #dfdfdf;
+  color: var(--main-color);
   text-align: center;
   padding: 16px 30px;
   text-decoration: none;
@@ -202,7 +204,7 @@ fieldset {
 }
 
 .main_nav a:hover {
-  background-color: #da9f3d;
+  background-color: var(--accent-color);
 }
 
 .dropdown {
@@ -224,7 +226,7 @@ fieldset {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #dfdfdf;
+  background-color: var(--main-color);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -243,7 +245,7 @@ fieldset {
 }
 
 .dropdown-content a:hover {
-  background-color: #da9f3d;
+  background-color: var(--accent-color);
 }
 
 .dropdown:hover .dropdown-content {
@@ -301,7 +303,7 @@ fieldset {
   font-family: inherit;
   font-size: 3em;
   font-weight: 500;
-  color: #da9f3d;
+  color: var(--accent-color);
   letter-spacing: 0.1em;
 }
 
@@ -327,17 +329,17 @@ fieldset {
     background-color: rgba(0, 0, 0, 0.2);
   }
   .GreyHeading {
-    color: #0f0f0f;
+    color: var(--contrast-black);
   }
   .goldetext {
     color: #e2a53f;
   }
   .mainbanner_block1 p {
-    color: #0f0f0f;
+    color: var(--contrast-black);
     font-weight: bold;
   }
   .mainbanner_block1>div {
-    color: #0f0f0f;
+    color: var(--contrast-black);
     font-weight: bold;
   }
   .HR_devider {
@@ -502,7 +504,7 @@ h2.article {
 }
 
 h3.article {
-  color: #dfdfdf;
+  color: var(--main-color);
   font-size: 20px;
   font-weight: 200;
 }
@@ -547,7 +549,7 @@ footer h4 {
 
 footer input {
   width: 50%;
-  background-color: #0f0f0f;
+  background-color: var(--contrast-black);
   color: #fff;
   margin: auto;
   height: 25px;
@@ -555,9 +557,9 @@ footer input {
 }
 
 footer button {
-  background-color: #da9f3d;
+  background-color: var(--accent-color);
   border: none;
-  color: #0f0f0f;
+  color: var(--contrast-black);
   padding: 10px 10px;
   width: 50%;
   margin: auto;
