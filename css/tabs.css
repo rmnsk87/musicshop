@@ -16,5 +16,6 @@
 }
 
 .nav-link:hover {
-    color: var(--main-color);
+    color: var(--contrast-black);
+    background-color: var(--main-color);
 }
