@@ -152,6 +152,8 @@ fieldset {
   border: none;
   outline: none;
   border-radius: 3px;
+  background-color: var(--contrast-black);
+  border: 1px solid var(--accent-color);
 }
 
 .topsearch button {
