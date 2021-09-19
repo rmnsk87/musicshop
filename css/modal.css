@@ -1,0 +1,11 @@
+/*** OVERRIDE BOOTSTRAP RULES FOR MODAL WINDOW**/
+
+:root {
+    --accent-color: #da9f3d;
+    --main-color: #dfdfdf;
+    --contrast-black: #0f0f0f;
+}
+
+.modal-title {
+    color: var(--contrast-black);
+}
