@@ -19,3 +19,9 @@
     color: var(--contrast-black);
     background-color: var(--main-color);
 }
+
+.btn-default {
+    color: var(--main-color);
+    background-color: var(--contrast-black);
+    border: 1px solid var(--accent-color);
+}
