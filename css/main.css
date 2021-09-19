@@ -217,11 +217,15 @@ fieldset {
   font-size: 18px;
   border: none;
   outline: none;
-  color: white;
+  color: var(--main-color);
   padding: 16px 30px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+}
+
+.dropdown .dropbtn:hover {
+  background-color: var(--accent-color);
 }
 
 .dropdown-content {
