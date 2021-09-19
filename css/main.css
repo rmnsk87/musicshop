@@ -89,7 +89,7 @@ li {
   text-decoration: none;
 }
 
-@media (max-width: 735px) {
+@media (max-width: 737px) {
   .toprow {
     flex-direction: column;
     justify-content: space-between;
