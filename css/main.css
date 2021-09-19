@@ -89,7 +89,7 @@ li {
   text-decoration: none;
 }
 
-@media (max-width: 737px) {
+@media (max-width: 908px) {
   .toprow {
     flex-direction: column;
     justify-content: space-between;
@@ -169,7 +169,7 @@ fieldset {
   font-weight: bold;
 }
 
-@media (max-width: 908px) {
+@media (max-width: 735px) {
   .topsearch {
     padding-top: 10px;
   }
@@ -240,7 +240,7 @@ fieldset {
   text-decoration: none;
   display: block;
   text-align: left;
-  background-color: #fff;
+  background-color: var(--main-color);
   border-bottom: 1px solid grey;
   font-size: 14px;
 }
