@@ -6,6 +6,40 @@
     --contrast-black: #0f0f0f;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .modal-title {
+    color: var(--contrast-black);
+}
+
+.modal-content {
+    background-color: var(--main-color);
+    ;
+}
+
+@media (min-width: 580px) {
+    .modal-content {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: 2px;
+    }
+}
+
+@media (max-width: 422px) {
+    .modal-footer {
+        display: block;
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 2px;
+        padding: 10px;
+    }
+}
+
+.modal-body {
     color: var(--contrast-black);
 }
