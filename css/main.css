@@ -169,7 +169,7 @@ fieldset {
   font-weight: bold;
 }
 
-@media (max-width: 735px) {
+@media (max-width: 908px) {
   .topsearch {
     padding-top: 10px;
   }
