@@ -15,7 +15,7 @@
 
   <link rel="shortcut icon" href="favicon.ico" type="image/png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css" type="text/css" />
 </head>
 
@@ -36,7 +36,7 @@
           <fieldset>
             <form method="GET" class="topsearch">
               <input type="text" placeholder="Пошук...">
-              <!--<button type="submit"></button>-->
+              <button value="" title="Пошук" alt="Пошук" class="topsearch" type="submit"></button>
             </form>
           </fieldset>
         </div>
@@ -63,7 +63,7 @@
           <a href="#">Аксесуари</a>
           <a href="#">Акції</a>
           <a href="#">Контакти</a>
-          <a href="#" class="icon" onclick="OpenBurgerMenu()">Меню &#9776;</a>
+          <a href="javascript:void(0);" class="icon" onclick="OpenBurgerMenu()">Меню &#9776;</a>
         </div>
       </nav>
     </header>
@@ -88,7 +88,8 @@
           blandit. Id diam vel quam elementum. Pulvinar elementum integer enim neque. Elementum tempus egestas sed sed
           risus. Neque ornare aenean euismod elementum nisi quis eleifend quam.</p>
 
-        <h2 class="article">Рекомендуємо</h2>        
+        <h2 class="article">Рекомендуємо</h2>
+        <p>карусель товарів</p>
         <div class="newproducts_container">
           <div><img src="products/red_guitar_telecaster-min.png" alt="Черовоний Telecaster">
             <h3 class="article">Гітара модель 1</h3>
@@ -126,14 +127,7 @@
 
       <div class="fixed_bg_container">
         <h2 class="fixed_bg_container">Школа гри на гітарі</h2>
-        <div class="countdown_container">
-          <ul>
-            <li><span id="days"></span>днів</li>
-            <li><span id="hours"></span>часів</li>
-            <li><span id="minutes"></span>хвилин</li>
-            <li><span id="seconds"></span>секунд</li>
-          </ul>
-        </div>
+        <div class="countdown_container" id="countdown_clock"></div>
       </div>
 
       <!-- BOOTSTRAP TABS-->
@@ -306,7 +300,8 @@
       </div>
     </div>
   </div>
-  <script src="js/menu.js"></script>
+  <script src="/js/menu.js"></script>
+  <script src="js/countdown.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
