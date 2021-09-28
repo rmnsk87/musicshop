@@ -35,9 +35,9 @@
 
     showCurrentSlide();
 
-    const btnNext = document.querySelector(".slide-next"); //document.getElementById("slide-next");   
+    const btnNext = document.getElementById("slide-next");
     btnNext.addEventListener("click", nextSlide);
 
-    const btnPrev = document.querySelector(".slide-prev"); //document.getElementById("slide-prev"); 
+    const btnPrev = document.getElementById("slide-prev");
     btnPrev.addEventListener("click", prevSlide);
 })();
