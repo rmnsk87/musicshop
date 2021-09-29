@@ -1,8 +1,8 @@
 function OpenBurgerMenu() {
-  const x = document.getElementById("myTopnav");
-  if (x.className === "main_nav") {
-    x.className += " responsive";
+  const topNav = document.getElementById("menu-contain");
+  if (topNav.className === "main_nav") {
+    topNav.className += " responsive";
   } else {
-    x.className = "main_nav";
+    topNav.className = "main_nav";
   }
 }
