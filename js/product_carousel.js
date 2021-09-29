@@ -1,9 +1,9 @@
 (function () {
     const slides = [
-        '<div><img src="products/red_guitar_telecaster-min.png" alt="Гітара Telecaster"><h3 class="article">Гітара модель 1</h3><p class="newproducts_price">8000 грн.</p><p class="newproducts_btn"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalWindowBasketcase">В кошик</button></p></div>',
-        '<div><img src="products/black_guitar_stratocaster-min.png" alt="Гітара Startocaster"><h3 class="article">Гітара модель 2</h3><p class="newproducts_price">6 000 грн.</p><p class="newproducts_btn"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalWindowBasketcase">В кошик</button></p></div>',
-        '<div><img src="products/black_guitar_les_paul-min.png" alt="Чорний Les Paul"><h3 class="article">Гітара модель 4</h3><p class="newproducts_price">10 000 грн.</p><p class="newproducts_btn"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalWindowBasketcase">В кошик</button></p></div>',
-        '<div><img src="products/acoustic_guitar-min.png" alt="Акустична гітара"><h3 class="article">Гітара модель 3</h3><p class="newproducts_price">4 200 грн.</p><p class="newproducts_btn"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalWindowBasketcase">В кошик</button></p></div>',
+        '<div><img src="products/red_guitar_telecaster-min.png" alt="Guitar Telecaster"><h3 class="article">Guitar 1</h3><p class="newproducts_price">8000 uah.</p><p class="newproducts_btn"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalWindowBasketcase">Add to cart</button></p></div>',
+        '<div><img src="products/black_guitar_stratocaster-min.png" alt="Startocaster"><h3 class="article">Guitar 2</h3><p class="newproducts_price">6 000 uah.</p><p class="newproducts_btn"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalWindowBasketcase">Add to cart</button></p></div>',
+        '<div><img src="products/black_guitar_les_paul-min.png" alt="Black Les Paul"><h3 class="article">Guitar 4</h3><p class="newproducts_price">10 000 uah.</p><p class="newproducts_btn"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalWindowBasketcase">Add to cart</button></p></div>',
+        '<div><img src="products/acoustic_guitar-min.png" alt="Acoustic Guitar"><h3 class="article">Guitar 3</h3><p class="newproducts_price">4 200 uah.</p><p class="newproducts_btn"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalWindowBasketcase">Add to cart</button></p></div>',
     ];
 
     let currentSlide = 0;
