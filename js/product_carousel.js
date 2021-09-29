@@ -44,6 +44,7 @@
     }
 
     showCurrentSlide();
+    window.addEventListener('resize', showCurrentSlide);
 
     const btnNext = document.getElementById("slide-next");
     btnNext.addEventListener("click", nextSlide);
