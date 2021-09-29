@@ -491,6 +491,10 @@
         text-align: center;
     }
 
+    .countdown_container span {
+        color: var(--accent-color);
+    }
+
     /* ARTICLE AND PARAGRAPH STYLES */
 
     h1.article {
