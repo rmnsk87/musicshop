@@ -7,6 +7,7 @@
         --accent-color: #da9f3d;
         --main-color: #dfdfdf;
         --contrast-black: #0f0f0f;
+        --menu-bgcolor: #3c3c3b;
     }
 
     * {
@@ -174,7 +175,7 @@
         width: 100%;
         margin: 0px;
         padding: 0px;
-        background-color: #3c3c3b;
+        background-color: var(--menu-bgcolor);
     }
 
     .main_nav a {
@@ -185,12 +186,13 @@
         padding: 16px 30px;
         text-decoration: none;
         font-size: 18px;
-        background-color: #3c3c3b;
+        font-weight: 500;
+        background-color: var(--menu-bgcolor);
         margin: auto;
     }
 
     .main_nav a:active {
-        background-color: #3c3c3b;
+        background-color: var(--menu-bgcolor);
     }
 
     .main_nav .icon {
