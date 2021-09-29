@@ -1,5 +1,5 @@
 function OpenBurgerMenu() {
-  var x = document.getElementById("myTopnav");
+  const x = document.getElementById("myTopnav");
   if (x.className === "main_nav") {
     x.className += " responsive";
   } else {
