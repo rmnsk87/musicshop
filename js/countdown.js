@@ -8,10 +8,10 @@ let x = setInterval(function () {
     let minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-    document.getElementById("countdown_clock").innerHTML = `<div>Днів:<br/> <span>${days}</span></div>` + `<div>Годин:<br/> <span>${hours}</span></div>` + `<div>Хвилин:<br/> <span>${minutes}</span></div>` + `<div>Секунд:<br/> <span>${seconds}</span></div>`;
+    document.getElementById("countdown_clock").innerHTML = `<div>Days:<br/> <span>${days}</span></div>` + `<div>Hours:<br/> <span>${hours}</span></div>` + `<div>Minutes:<br/> <span>${minutes}</span></div>` + `<div>Seconds:<br/> <span>${seconds}</span></div>`;
 
     if (difference < 0) {
         clearInterval(x);
-        document.getElementById("countdown_clock").innerHTML = "Школа стартувала";
+        document.getElementById("countdown_clock").innerHTML = "School begins!";
     }
 }, 1000);
