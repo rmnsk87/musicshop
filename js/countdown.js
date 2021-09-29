@@ -8,7 +8,7 @@ let x = setInterval(function () {
     let minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-    document.getElementById("countdown_clock").innerHTML = `<div>Днів:<br/> ${days}</div>` + `<div>Годин:<br/> ${hours}</div>` + `<div>Хвилин:<br/> ${minutes}</div>` + `<div>Секунд:<br/> ${seconds}</div>`;
+    document.getElementById("countdown_clock").innerHTML = `<div>Днів:<br/> <span>${days}</span></div>` + `<div>Годин:<br/> <span>${hours}</span></div>` + `<div>Хвилин:<br/> <span>${minutes}</span></div>` + `<div>Секунд:<br/> <span>${seconds}</span></div>`;
 
     if (difference < 0) {
         clearInterval(x);
