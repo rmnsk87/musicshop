@@ -1,6 +1,6 @@
     /*IMPORT OF ADDITIONAL CSS FILES*/
 
-    @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500&display=swap');
     @import url('../css/tabs.css');
     @import url('../css/modal.css');
     :root {
@@ -19,9 +19,8 @@
         padding: 0px;
         background: var(--contrast-black);
         color: var(--main-color);
-        font-family: 'Fira Sans Condensed', sans-serif!important;
+        font-family: 'Catamaran', sans-serif;
         display: flex;
-        font-family: 'Alegreya Sans', sans-serif;
     }
 
     li {
@@ -102,7 +101,7 @@
     .upper_header_cells a:hover {
         color: var(--accent-color);
         text-decoration: none;
-    }    
+    }
 
     nav {
         display: inline-block;
@@ -481,17 +480,17 @@
         grid-gap: 1em;
         font-size: 1em;
         list-style-type: none;
-        padding: 0.7em;        
+        padding: 0.7em;
     }
 
     .countdown_container div {
         background: darkslategray;
         color: var(--main-color);
         padding: 3px;
+        -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2) inset;
+        -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2) inset;
+        box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2) inset;
         text-align: center;
-        -webkit-box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.2) inset;
-        -moz-box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.2) inset;
-        box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.2) inset;
     }
 
     .countdown_container span {
@@ -506,6 +505,7 @@
         font-weight: 400;
         text-align: center;
         padding-top: 8px;
+        ;
     }
 
     h2.article {
