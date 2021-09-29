@@ -102,16 +102,7 @@
     .upper_header_cells a:hover {
         color: var(--accent-color);
         text-decoration: none;
-    }
-
-    /*.upper_header_cells {
-  padding: 10px 10px;
-  float: left;
-  min-width: 350px;
-  margin: auto;
-  text-align: center;
-  font-size: 14px;
-}*/
+    }    
 
     nav {
         display: inline-block;
@@ -490,8 +481,7 @@
         grid-gap: 1em;
         font-size: 1em;
         list-style-type: none;
-        padding: 0.7em;
-        text-transform: uppercase;
+        padding: 0.7em;        
     }
 
     .countdown_container div {
