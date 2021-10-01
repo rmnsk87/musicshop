@@ -177,6 +177,7 @@
         margin: 0px;
         padding: 0px;
         background-color: var(--menu-bgcolor);
+        border: 1px solid var(--main-color);
     }
 
     .main_nav a {
@@ -445,13 +446,30 @@
     }
 
     .mainbanner_container {
-        background: url(../img/main_slider_bg.png) no-repeat;
         display: flex;
         justify-content: left;
         align-items: center;
         width: 100%;
-        height: 990px;
+        height: auto;
     }
+
+    .mainbanner_container img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    /*@media (max-width: 1290px) {
+        .mainbanner_container {
+            background-size: contain;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            width: auto;
+            height: 300px;
+        }
+    }*/
 
     .golden_button {
         background-color: #f8b803;
