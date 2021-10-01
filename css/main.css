@@ -177,8 +177,9 @@
         margin: 0px;
         padding: 0px;
         background-color: var(--menu-bgcolor);
-        -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-        box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+        -webkit-box-shadow: -1px 2px 5px 3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 2px 5px 3px rgba(0, 0, 0, 0.75);
+        box-shadow: -1px 2px 5px 3px rgba(0, 0, 0, 0.75);
     }
 
     .main_nav a {
