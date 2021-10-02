@@ -54,3 +54,37 @@
         grid-gap: 180px;
     }
 }
+
+.tabs-container-newest {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1170px) {
+    .tabs-container-newest {
+        grid-gap: 180px;
+    }
+}
+
+.tabs-container-popular {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1170px) {
+    .tabs-container-popular {
+        grid-gap: 180px;
+    }
+}
