@@ -146,7 +146,7 @@
         border-radius: 3px;
         color: var(--main-color);
         background-color: var(--contrast-black);
-        border: 1px solid var(--accent-color);
+        border: 1px solid var(--main-color);
     }
 
     .topsearch button {
@@ -432,6 +432,14 @@
         -ms-flex-align: center;
         align-items: center;
         cursor: pointer;
+    }
+
+    .stylize-top-ico{
+        color: var(--accent-color);
+    }
+
+    .stylize-top-ico:hover{
+        background-color: transparent;
     }
 
     .HR_devider {
