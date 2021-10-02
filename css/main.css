@@ -242,7 +242,7 @@
         text-decoration: none;
         display: block;
         text-align: left;
-        background-color: var(--main-color);
+        /*background-color: var(--main-color);*/
         border-bottom: 1px solid grey;
         font-size: 14px;
     }
@@ -434,11 +434,11 @@
         cursor: pointer;
     }
 
-    .stylize-top-ico{
+    .stylize-top-ico {
         color: var(--accent-color);
     }
 
-    .stylize-top-ico:hover{
+    .stylize-top-ico a:hover {
         background-color: transparent;
     }
 
