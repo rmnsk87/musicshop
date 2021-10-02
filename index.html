@@ -107,45 +107,28 @@
 
             <br />
             <div>
-                <div class="curve-font">Our brands</div><br />
+                <div class="curve-font">Our offers</div><br />
                 <ul class="nav nav-tab justify-content-center">
                     <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#sale">Sales</a></li>
                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#newest">Newest</a></li>
                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#popular">Popular</a></li>
                 </ul>
                 <div class="tab-content">
+                    <!-- FIRST TAB BEGINS-->
+
                     <div class="tab-pane fade show active" id="sale">
-                        <div class="newproducts_container">
-                            <div><img src="products/red_guitar_telecaster-min.png" alt="Red Telecaster">
-                                <h3 class="article">Guitar 1</h3>
-                                <p class="newproducts_price">8000 uah.</p>
-                                <p class="newproducts_btn"><button type="button" class="btn btn-default"
-                                        data-toggle="modal" data-target="#ModalWindowBasketcase">
-                                        Add to cart</button></p>
-                            </div>
-                            <div><img src="products/red_guitar_telecaster-min.png" alt="Red Telecaster">
-                                <h3 class="article">Guitar 1</h3>
-                                <p class="newproducts_price">8000 uah.</p>
-                                <p class="newproducts_btn"><button type="button" class="btn btn-default"
-                                        data-toggle="modal" data-target="#ModalWindowBasketcase">
-                                        Add to cart</button></p>
-                            </div>
-                            <div><img src="products/red_guitar_telecaster-min.png" alt="Red Telecaster">
-                                <h3 class="article">Guitar 1</h3>
-                                <p class="newproducts_price">8000 uah.</p>
-                                <p class="newproducts_btn"><button type="button" class="btn btn-default"
-                                        data-toggle="modal" data-target="#ModalWindowBasketcase">
-                                        Add to cart</button></p>
-                            </div>
-                            <div><img src="products/black_guitar_les_paul-min.png" alt="Black Les Paul">
-                                <h3 class="article">Guitar 4</h3>
-                                <p class="newproducts_price">10 000 uah.</p>
-                                <p class="newproducts_btn"><button type="button" class="btn btn-default"
-                                        data-toggle="modal" data-target="#ModalWindowBasketcase">
-                                        Add to cart</button></p>
-                            </div>
-                        </div>
+                        <article>
+                            <div class="newproducts_container"><span class="tabs-container-sales"></span></div>
+
+                            <button class="btn slide-prev" id="slide-prev2"><i class='fas fa-arrow-alt-circle-left'></i>
+                                Back</button>
+                            <button class="btn slide-next" id="slide-next2">Next <i
+                                    class='fas fa-arrow-alt-circle-right'></i></button>
+                        </article>
                     </div>
+
+                    <!--FIRST TAB ENDS-->
+
                     <div class="tab-pane fade" id="newest">
                         <div class="newproducts_container">
                             <div><img src="products/black_guitar_les_paul-min.png" alt="Black Les Paul">
@@ -277,6 +260,7 @@
     <script src="js/menu.js"></script>
     <script src="js/countdown.js"></script>
     <script src="js/product_carousel.js"></script>
+    <script src="js/tabs_carousel.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
