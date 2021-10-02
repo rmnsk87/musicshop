@@ -6,19 +6,23 @@
     --contrast-black: #0f0f0f;
 }
 
+.nav-link a:hover {
+    color: var(--main-color);
+}
+
 .nav-link {
     color: var(--accent-color);
 }
 
 .nav-link.active {
+    background-color: var(--contrast-black);
+    color: var(--main-color);
+}
+
+.nav-link:hover {
     color: var(--contrast-black);
     background-color: var(--main-color);
 }
-
-/*.nav-link:hover {
-    color: var(--contrast-black);
-    background-color: var(--main-color);
-}*/
 
 .btn-default {
     color: var(--main-color);
@@ -30,4 +34,23 @@
 .btn-default:hover {
     color: var(--contrast-black);
     border: 0;
+}
+
+/* OTHER STYLES OF TABS CONTENT */
+
+.tabs-container-sales {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1170px) {
+    .tabs-container-sales {
+        grid-gap: 180px;
+    }
 }
