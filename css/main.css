@@ -438,8 +438,8 @@
         color: var(--accent-color);
     }
 
-    .stylize-top-ico a:hover {
-        background-color: transparent;
+    .stylize-top-ico:hover {
+        background-color: var(--menu-bgcolor)!important;
     }
 
     .HR_devider {
