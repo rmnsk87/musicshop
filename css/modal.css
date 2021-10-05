@@ -16,8 +16,8 @@
 }
 
 .modal-content {
-    background-color: var(--main-color);
-    ;
+    background-color: var(--contrast-black);
+    border: 1px solid var(--main-color);
 }
 
 @media (min-width: 580px) {
@@ -41,5 +41,13 @@
 }
 
 .modal-body {
-    color: var(--contrast-black);
+    color: var(--main-color);
+}
+
+.modal-title {
+    color: var(--accent-color);
+}
+
+.close {
+    color: var(--accent-color);
 }
