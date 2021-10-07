@@ -51,3 +51,11 @@
 .close {
     color: var(--accent-color);
 }
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
