@@ -59,3 +59,7 @@
 .modal-footer {
     border-top: none;
 }
+
+.centered{
+    text-align: center;
+}
