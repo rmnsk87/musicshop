@@ -64,7 +64,8 @@
                     <a href="javascript:void(0);" class="icon" onclick="OpenBurgerMenu()">Menu &#9776;</a>
                     <a href="#" class="stylize-top-ico" data-toggle="modal" data-target="#ModalWindowBasketcase"><i
                             class="fas fa-cart-arrow-down stylize-top-ico"></i></a>
-                    <a href="#" class="stylize-top-ico"><i class="fas fa-user-alt stylize-top-ico"></i></a>
+                    <a href="#" class="stylize-top-ico" data-toggle="modal" data-target="#ModalWindowAccount"><i
+                            class="fas fa-user-alt stylize-top-ico"></i></a>
                 </div>
             </nav>
         </header>
@@ -223,6 +224,38 @@
             </div>
         </div>
     </div>
+    <!-- LOGIN WINDOW-->
+    <div class="modal fade" id="ModalWindowAccount" tabindex="-1" role="dialog" aria-label="ModalWindowAccount"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign in:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <fieldset>
+                        <form>
+                            <label for="name">Your name:</label>
+                            <input type="text" id="message">
+                            <label for="message">Your Second name</label>
+                            <input type="text" id="message">
+                            <label for="email">Email</label>
+                            <input type="email" id="email"><br />
+                        </form>
+                    </fieldset>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign in</button><br />
+                    <div>Not registered yet?</div>
+                    <button type="button" class="btn btn-dark">Create account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/menu.js"></script>
     <script src="js/countdown.js"></script>
     <script src="js/product_carousel.js"></script>
