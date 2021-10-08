@@ -11,7 +11,7 @@
     padding: 0;
 }
 
-input {
+.modal-content input {
     font-size: 16px;
     padding: 5px;
     color: var(--contrast-black);
