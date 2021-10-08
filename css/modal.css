@@ -11,6 +11,18 @@
     padding: 0;
 }
 
+input {
+    font-size: 16px;
+    padding: 5px;
+    color: var(--contrast-black);
+    font-weight: bold;
+    background-color: #6b6b6b;
+    border-radius: 5px;
+    -webkit-box-shadow: -2px 7px 19px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 7px 19px 7px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 7px 19px 7px rgba(0, 0, 0, 0.75);
+}
+
 .modal-title {
     color: var(--contrast-black);
 }
@@ -60,6 +72,14 @@
     border-top: none;
 }
 
-.centered{
+.centered {
     text-align: center;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.modal-footer btn {
+    padding: 8px;
 }
