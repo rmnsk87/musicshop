@@ -9,7 +9,6 @@ function increaseCartNumber() {
 	document.getElementById("show-cart-qta").innerHTML = ' ';
 	document.getElementById("show-cart-list").innerHTML = '<div>' + resultName + '</div>' + '<div>' + clicks + ' pcs. </div>';
 
-
 };
 
 
