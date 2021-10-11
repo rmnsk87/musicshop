@@ -541,18 +541,7 @@
         width: 100%;
         height: auto;
     }
-
-    /*@media (max-width: 1290px) {
-        .mainbanner_container {
-            background-size: contain;
-            display: flex;
-            justify-content: left;
-            align-items: center;
-            width: auto;
-            height: 300px;
-        }
-    }*/
-
+    
     .golden_button {
         background-color: #f8b803;
         color: white;
