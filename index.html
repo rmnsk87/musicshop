@@ -93,34 +93,34 @@
                 <h2 class="curve-font">Our products</h2>
                 <br />
                 <div class="products_container">
-                    <div id="telecaster" name="Red Telecaster"><img
-                            src="products/red_guitar_telecaster-min.png" alt="Red Telecaster">
+                    <div id="Telecaster"><img src="products/red_guitar_telecaster-min.png" alt="Red Telecaster">
                         <h3 class="article">Telecaster</h3>
                         <p class="products_price">8000 uah.</p>
                         <p class="products_btn"><button type="button" class="btn btn-default" data-toggle="modal"
                                 data-target="#ModalWindowBasketcase" onClick="increaseCartNumber()">Add to cart</button>
                         </p>
                     </div>
-                    <div id="stratocaster"><img
-                            src="products/black_guitar_stratocaster-min.png" alt="Stratocaster">
+                    <div id="stratocaster"><img src="products/black_guitar_stratocaster-min.png" alt="Stratocaster">
                         <h3 class="article">Stratocaster</h3>
                         <p class="products_price">6500 uah.</p>
                         <p class="products_btn"><button type="button" class="btn btn-default" data-toggle="modal"
-                                data-target="#ModalWindowBasketcase" onClick="increaseCartNumber2()">Add to
+                                data-target="#ModalWindowBasketcase" onClick="increaseCartNumber()">Add to
                                 cart</button></p>
                     </div>
                     <div class="product__element"><img src="products/acoustic_guitar-min.png" alt="Acoustic guitar">
                         <h3 class="article">Acoustic guitar</h3>
                         <p class="products_price">4200 uah.</p>
                         <p class="products_btn"><button type="button" class="btn btn-default" data-toggle="modal"
-                                data-target="#ModalWindowBasketcase">Add to cart</button></p>
+                                data-target="#ModalWindowBasketcase" onClick="increaseCartNumber()">Add to cart</button>
+                        </p>
                     </div>
                     <div class="product__element"><img src="products/black_guitar_les_paul-min.png"
                             alt="Black Les Paul">
                         <h3 class="article">Les Paul</h3>
                         <p class="products_price">10 000 uah.</p>
                         <p class="products_btn"><button type="button" class="btn btn-default" data-toggle="modal"
-                                data-target="#ModalWindowBasketcase">Add to cart</button></p>
+                                data-target="#ModalWindowBasketcase" onClick="increaseCartNumber()">Add to cart</button>
+                        </p>
                     </div>
 
                 </div>
@@ -235,12 +235,13 @@
                         <button type="submit" value="Send">Send</button>
                     </form>
                 </fieldset>
+
             </div>
             <div id="clicksValue"></div>
         </footer>
         <!-- END OF CONTAINER-->
     </div>
-    <!-- ADD TO CART MODAL WINDOW -->
+    <!-- MODAL WINDOW -->
     <div class="modal fade" id="ModalWindowBasketcase" tabindex="-1" role="dialog" aria-label="ModalWindowBasketcase"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -273,8 +274,8 @@
                     <fieldset>
                         <div class="centered">
                             <form>
-                                <label for="email-login">Your email</label><br />
-                                <input type="email" id="email-login"><br /><br />
+                                <label for="email">Your email</label><br />
+                                <input type="email" id="email"><br /><br />
                                 <label for="password">Your password</label><br />
                                 <input type="password" id="password"><br />
                             </form>
@@ -315,7 +316,7 @@
     <script src="js/countdown.js"></script>
     <script src="js/product_carousel.js"></script>
     <script src="js/tabs_carousel.js"></script>
-    <script src="js/cart.js"></script>    
+    <script src="js/cart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
