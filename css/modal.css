@@ -32,6 +32,10 @@
     border: 1px solid var(--main-color);
 }
 
+.success {
+    color: var(--accent-color);
+}
+
 @media (min-width: 580px) {
     .modal-content {
         display: flex;
@@ -82,4 +86,11 @@
 
 .modal-footer btn {
     padding: 8px;
+}
+
+.show-cart-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    justify-content: space-between;
 }
