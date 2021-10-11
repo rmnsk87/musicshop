@@ -11,9 +11,7 @@ function increaseCartNumber() {
 
 
 };
-return clicks
-window.name = clicks;
-document.getElementById("clicks").innerHTML = window.name;
+
 
 
 
