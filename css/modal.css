@@ -90,7 +90,5 @@
 
 .show-cart-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
-    justify-content: space-between;
+    grid-template-columns: 1fr;
 }
