@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css" type="text/css" />
+
 </head>
 
 <body>
@@ -77,18 +78,30 @@
                 <br />
                 <h2 class="curve-font">We recommend</h2>
                 <br />
-                <div class="newproducts_container"></div>
-                <br />
-                <button class="btn slide-prev" id="slide-prev"><i class='fas fa-arrow-alt-circle-left'></i>
-                    Back</button>
-                <button class="btn slide-next" id="slide-next">Next <i
-                        class='fas fa-arrow-alt-circle-right'></i></button>
-
+                <div class="newproducts_container">
+                    <div><img src="products/red_guitar_telecaster-min.png" alt="Guitar Telecaster">
+                        <h3 class="article">Guitar 1</h3>
+                        <p class="newproducts_price">8000 &#8364</p>
+                        <p class="newproducts_btn"><button type="button" class="btn btn-default add-to-cart" data-toggle="modal" data-target="#ModalWindowBasketcase">Add to cart</button></p>
+                    </div>
+                    <div><img src="products/black_guitar_stratocaster-min.png" alt="Startocaster">
+                        <h3 class="article">Guitar 2</h3>
+                        <p class="newproducts_price">6 000 &#8364</p>
+                        <p class="newproducts_btn"><button type="button" class="btn btn-default add-to-cart" data-toggle="modal" data-target="#ModalWindowBasketcase">Add to cart</button></p>
+                    </div>
+                    <div><img src="products/black_guitar_les_paul-min.png" alt="Black Les Paul">
+                        <h3 class="article">Guitar 4</h3>
+                        <p class="newproducts_price">10 000 &#8364</p>
+                        <p class="newproducts_btn"><button type="button" class="btn btn-default add-to-cart" data-toggle="modal" data-target="#ModalWindowBasketcase">Add to cart</button></p>
+                    </div>
+                    <div><img src="products/acoustic_guitar-min.png" alt="Acoustic Guitar">
+                        <h3 class="article">Guitar 3</h3>
+                        <p class="newproducts_price">4 200 &#8364</p>
+                        <p class="newproducts_btn"><button type="button" class="btn btn-default add-to-cart" data-toggle="modal" data-target="#ModalWindowBasketcase">Add to cart</button></p>
+                    </div>
+                </div>
             </article>
             <br />
-
-
-
 
             <!--COUNTDOWN BLOCK-->
 
@@ -287,24 +300,24 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body centered">
+                <div class="modal-body centered cart">
                     <div id="show-cart-qta">Your cart is empty</div><br />
                     <div class="show-cart-list" id="show-cart-list"></div><br />
                     <button type="button" class="btn" data-dismiss="modal">Continue shopping</button>
                     <button type="button" class="btn" data-dismiss="modal">View cart</button>
+                    <button type="button" class="btn clear-cart" data-dismiss="modal">Clear cart</button>
                 </div>
 
             </div>
         </div>
     </div>
-
     <script src="js/menu.js"></script>
     <script src="js/countdown.js"></script>
-    <script src="js/product_carousel.js"></script>
+    <!-- <script src="js/product_carousel.js"></script> -->
     <script src="js/tabs_carousel.js"></script>
-    <script src="js/cart.js"></script>
     <script src="js/auth.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/cart.js"></script>
 </body>
