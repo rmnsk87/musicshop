@@ -1,5 +1,5 @@
 (function () {
-    const finalDate = new Date("Dec 31, 2021 23:59:59").getTime();
+    const finalDate = new Date("Dec 31, 2025 23:59:59").getTime();
     let x = setInterval(function () {
 
         let now = new Date().getTime();
@@ -18,4 +18,5 @@
     }, 1000);
 
 })();
+
 
