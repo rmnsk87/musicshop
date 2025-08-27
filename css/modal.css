@@ -92,3 +92,18 @@
     display: grid;
     grid-template-columns: 1fr;
 }
+
+.btn-signin {
+    background-color: var(--accent-color);
+    color: var(--contrast-black);
+    margin-top: 15px;
+}
+
+.btn-create {
+    border: darkblue;
+    border-radius: 15px;
+}
+
+.error {
+    padding: 10px;
+}
