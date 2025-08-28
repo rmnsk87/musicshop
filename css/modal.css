@@ -4,6 +4,8 @@
     --accent-color: #da9f3d;
     --main-color: #dfdfdf;
     --contrast-black: #0f0f0f;
+    --highliht-violet: rgb(73, 65, 148);
+    --hihgliht-gold: #d3942b;
 }
 
 * {
@@ -99,9 +101,21 @@
     margin-top: 15px;
 }
 
+.btn-signin:hover {
+    background-color: var(--contrast-black);
+    border: 1px solid var(--hihgliht-gold);
+    color: var(--main-color);
+}
+
 .btn-create {
-    border: darkblue;
-    border-radius: 15px;
+    border: 1px solid var(--highliht-violet);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn-create:hover {
+    background-color: var(--highliht-violet);
 }
 
 .error {
